@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 157, 255, 0.507);
+    font-family: 'Roboto';
+
+
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 95%;
+    height: 300px;
+    background-color: rgba(1, 25, 25, 0.779);
+    align-self: center;
+    border-radius: 1rem;
+    transition: 0.3s;
+
+}
+
+div:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+div section {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: black;
+    transition: 0.4s;
+}
+
+
+div section:hover {
+    background-color: whitesmoke;
+}
+
+@media (max-width:700px) {
+    div {
+        flex-direction: column;
+        height: 700px;
+    }
+
+}
+
+#welcome {
+    width: 70%;
+    align-self: center;
+    margin: 3rem 0;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    border-bottom: 0.2rem solid black;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+main {
+    background-color: rgb(254, 250, 187);
+    width: 95%;
+    height: max-content;
+    align-self: center;
+    border-radius: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    margin: 3rem;
+
+}
+
+main p {
+    width: 90%;
+    align-self: center
+}
+
+main h1,
+h2,
+h3 {
+    margin-left: 2%;
+}
+
+* {
+    font-family: 'Roboto';
+}
